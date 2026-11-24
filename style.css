@@ -1,0 +1,6 @@
+:root{--bg:#0a0a0b;--text:#ecebe8;--muted:#8f8e96;--line:rgb(255 255 255/.08)}
+@media (prefers-color-scheme: light){:root{--bg:#f6f6f4;--text:#161618;--muted:#5f5e66;--line:rgb(0 0 0/.08)}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 ui-sans-serif,system-ui,-apple-system,sans-serif}
+main{max-width:640px;margin:0 auto;padding:72px 20px}h1{font-weight:500;font-size:28px;letter-spacing:-.01em;margin:0 0 8px}
+h2{font-weight:500;font-size:18px;margin:32px 0 8px}p,li{color:var(--muted)}a{color:inherit}
+nav{display:flex;gap:16px;border-top:1px solid var(--line);margin-top:48px;padding-top:16px;font-size:14px}
